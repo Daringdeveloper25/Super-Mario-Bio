@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<header>
+		<img
+			width=300px
+			height=250px
+			src="https://tse4.mm.bing.net/th/id/OIP.Q3JkiuthXgYfCoe2-aTwXAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+			alt="Super Mario Picture"
+			title="Super Mario Picture"
+		>
+		<h2>Super Mario Bros</h2>
+		<nav>
+			<a href="#mario">Mario</a>
+			<a href="#luigi">Luigi</a>
+			<a href="#peach">Princess Peach</a>
+            <a href="#bowser">Bowser</a>
+		</nav>
+		<p>Super Mario is a famous video game franchise that takes place in the Mushroom Kingdom. <br> 
+		With Bowser always kidnapping Princess Peach or trying to conquer the world, <br>
+		Mario is always ready to power up and stomp him back to his castle!</p>
+		
+	</header>
+	<body>
+		<br><hr><br>
+		<section>
+		<article id="mario">
+		<button id="changeMarioBackground">Change Mario Background Color</button><br>
+			<img
+				width=300px
+				height=250px
+				src="https://www.bing.com/th?id=OPHS.aW%2bgBd%2fsk5c%2fMg474C474&o=5&pid=21.1&w=128&h=188&qlt=100&dpr=1&bw=6&bc=FFFFFF"
+				alt="Picture of Mario"
+				title="Picture of Mario"
+			> <br>
+            <button id="changeMario">Change Mario</button><br>
+            <audio controls>
+                <source src="audio/yeahoo.mp3" type="audio/mpeg">
+            </audio> <br>
+			<p id="mariotext">Mario is the whimsical hero of the Super Mario Bros series! <br>
+			With an arsenal of power-ups and years of parkour experience, he is always ready to kick Bowser and his army's tails! <br>
+			His power-ups include the Mushroom, the Fire Flower, the Tanooki Leaf and the Invincible Star</p>
+			<button id="changeMarioText">Change Mario Text</button>
+		<form>
+			Which Mario power-up is your favorite? <br>
+			<input type="radio" name="powerup">The Super Mushroom <br>
+			<input type="radio" name="powerup">The Fire Flower <br>
+			<input type="radio" name="powerup">The Invincible Star <br>
+			<input type="radio" name="galaxypower">The Spring Mushroom <br>
+			<input type="radio" name="galaxypower">The Rock Mushroom <br> 
+			<textarea name="galaxypower" rows="5" cols="30" placeholder="Put other powerups here"></textarea> <br>
+		</form>
+		
+		</article>
+		<br>
+		<div id="line"></div>
+		<br>
+		<article id="luigi">
+			<img id="luigipic"
+				width=300px
+				height=250px
+				src="https://th.bing.com/th/id/OIP.W36iSNoqCXnaaXZCfv4_VQHaKw?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+				alt="Picture of Luigi"
+				title="Picture of Luigi"
+			> <br>
+			<button id="changeLuigi">Change Luigi</button>
+			<p id="luigiText">Luigi is Mario's clumsy and often fear prone younger brother. <br>
+			He is almost always by Mario's side in his games and adventures and is often a playable character. <br>
+			He is brave when he needs to be, as shown in the Luigi's Mansion Series. With his own set of skills and
+			resourcefulness, he is always ready to lend Mario a helping hand.</p> <br>
+			<button id="changeLuigiText">Change Luigi Text</button>
+			<form>
+				Which Luigi moment is your favorite? <br>
+				<input type="radio" name="luigimoment">Luigi defeating King Boo <br>
+				<input type="radio" name="luigimoment">Luigi getting cool powers in Dream Team <br>
+				<input type="radio" name="luigimoment">When Luigi teamed up with Mario and used the Invincble Star to defeat Bowser in the movie. <br>
+				<textarea id="luigiMomentText" rows="5" cols="30" placeholder="Put other Luigi Moments Here"></textarea> <br>
+			</form>
+		</article>
+		<br>
+		<div id="line"></div>
+		<br>
+		<article id="peach">
+			<img id="peachPic"
+				width=300px
+				height=250px
+				src="https://th.bing.com/th/id/OIP.Nl1lTk_FN3YjXUyTzhVjEAHaOz?w=203&h=370&c=7&r=0&o=7&pid=1.7&rm=3"
+				alt="Picture of Princess Peach"
+				title="Picture of Princess Peach"
+			> <br>
+			<button id="changePeach">Change Peach</button> <br>
+			<p>Princess Peach is the ruler and protector of the Mushroom Kingdom. At first, she has always been prone to being kidnapped by Bowser, <br>
+			but as the series went on, she has become more and more independent and capable of taking enemies out on her own, as demonstrated in a few of her standalone games. <br>
+			As the princess of the Mushroom Kingdom and one of Mario's strongest allies, she is always ready to lend Mario a helping hand! </p>
+			<form>
+				What is your favorite Princess Peach media? <br>
+				<input type="radio" name="peachmedia">Super Princess Peach <br>
+				<input type="radio" name="peachmedia">Princess Peach Showtime <br>
+				<input type="radio" name="peachmedia">Princess Peach in the movies <br>
+				<textarea id="peachMediaText" rows="5" cols="30" placeholder="Write other Peach moments here"></textarea>
+			</form>
+		</article>
+		<br>
+		<div id="line"></div>
+		<br>
+		<article id="bowser">
+			<img id="bowserPic"
+				width=300px
+				height=250px
+				src="data:image/webp;base64,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"
+				alt="Picture of Bowser"
+				title="Picture of Bowser"
+			> <br>
+			<button id="changeBowser">Change Bowser</button>
+			<p>Bowser is the tyrannical king of the koopas and the archenemy of the Super Mario Bros. <br>
+			He has come up with countless ways to try and conquer the Mushroom Kingdom, sometimes even the world, and occasionall even the whole galaxy. <br>
+			Luckily, Mario is always ready to kick his tail and knock him all the way back to his castle! </p> <br>
+			<form>
+				What is your favorite Bowser Moment? <br>
+				<input type="radio" name="bowserMoment">When Bowser turns into a giant castle <br>
+				<input type="radio" name="bowserMoment">When Bowser transforms into Meowser <br>
+				<input type="radio" name="bowserMoment">When Bowser is played by Jack Black in the movies <br>
+			</form>
+		</article>
+		<br>
+		<div id="line"></div>
+		<br>
+		<article id = "bowserJr">
+			<img id="bowserJrPic"
+				width=300px
+				height=250px
+				src="https://www.ssbwiki.com/images/thumb/2/2b/Bowser_Jr._SSBU.png/1200px-Bowser_Jr._SSBU.png"
+				alt="Picture of Bowser Jr."
+				title="Picture of Bowser Jr."
+			> <br>
+			<button id="changeBowserJr">Change Bowser Jr.</button>
+			<p>Bowser Jr. is the son of Bowser and one of Mario's recurring antagonists. <br>
+			He is often seen trying to follow in his father's footsteps and cause trouble for Mario and his friends, but he is also shown to have a softer side and a desire to be accepted by his father. <br>
+			Despite his mischievous nature, Bowser Jr. is a complex character who adds depth to the Super Mario Bros. series and is always ready to cause trouble for Mario and his friends! </p> <br>
+			<form>
+				What is your favorite Bowser Jr moment? <br>
+				<input type="radio" name="bowserJrMoment">When he turns into Shadow Mario in Sunshine <br>
+				<input type="radio" name="bowserJrMoment">When he uses Wonder Power <br>
+				<input type="radio" name="bowserJrMoment">His moments in the Super Mario Galaxy Movie. <br>
+				<textarea name="otherBowserJrMoments" placeholder="Write down other moments here" rows="5" cols="30"></textarea>
+			</form>
+		</article>
+		<br>
+		<div id="line"></div>
+		<br>
+		</section>
+			<script src="script.js"></script>
+	</body>
+</html>

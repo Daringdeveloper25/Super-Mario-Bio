@@ -1,0 +1,60 @@
+	p {
+		font-size: 30px;
+	}
+	@font-face {
+    font-family: "SuperMario";
+    src: url("font/SuperMario256.ttf") format("truetype");
+	}
+	h2 {
+		 font-size: 48px;
+	}
+	#mario {
+		background-color: red;
+	}
+	#mario img {
+		height: 250px;
+		width: 300px;
+		transition: ease-in-out 1s;
+		border-radius: 20px
+	}
+	#mario img:hover {
+		height: 350px;
+		width: 400px;
+		transition: ease-in-out 1s;
+	}
+	#luigi {
+		background-color: green;
+	}
+	#peach {
+		background-color: pink;
+	}
+
+	#bowser {
+		background-color: yellow;
+	}
+	#bowserJr {
+		background-color: orange;
+	}
+
+
+	#line {
+		background-color: black;
+		border-radius: 10px;
+		height: 10px;
+		width: 100%;
+	}
+
+	body::before {
+		content: "";
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("https://thf.bing.com/th/id/OIP.u91yOPfVxZ6ZTGvk1gbTiAHaEK?w=314&h=180&c=7&r=0&o=7&cb=thfc1falcon&dpr=1.9&pid=1.7&rm=3");
+		background-position: center;
+		background-size: cover;
+		opacity: 0.4;
+
+		z-index: -2;
+	}
